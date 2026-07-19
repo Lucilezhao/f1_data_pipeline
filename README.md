@@ -97,9 +97,8 @@ Notebooks follow a shared template: config → read → transform → validate �
 ## Roadmap
 
 - [ ] Automated ingestion from the public Ergast API (replacing manual file drops)
-- [ ] Data quality test suite (dbt-style tests: not-null, uniqueness, referential checks)
+- [ ] Data quality test suite (not-null, uniqueness, referential checks)
 - [ ] CI with GitHub Actions (lint + unit tests on PR)
-- [ ] dbt + Snowflake port of the transformation layer
 
 ## Running
 
